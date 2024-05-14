@@ -141,7 +141,7 @@ impl OsRebuildArgs {
         if let Boot(_) | Switch(_) = rebuild_type {
             commands::CommandBuilder::default()
                 .args([
-                    "dunstify -t 4000 "SET PASSWORD..." -i ~/.icons/dunst/terminal.png; sudo",
+                    "sudo",
                     "nix-env",
                     "--profile",
                     SYSTEM_PROFILE,
