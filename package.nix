@@ -59,7 +59,7 @@ in
 
     meta = {
       description = "Yet another nix cli helper";
-      homepage = "https://github.com/viperML/nh";
+      homepage = "https://github.com/sorathpanzer/nh";
       license = lib.licenses.eupl12;
       mainProgram = "nh";
       maintainers = with lib.maintainers; [drupol viperML];

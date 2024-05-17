@@ -1,5 +1,5 @@
 builtins.throw ''
-  github:viperML/nh: the NixOS module has been upstreamed into nixpkgs
+  github:sorathpanzer/nh: the NixOS module has been upstreamed into nixpkgs
 
   https://github.com/NixOS/nixpkgs/pull/294923
 
